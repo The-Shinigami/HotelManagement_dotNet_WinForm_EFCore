@@ -1,0 +1,54 @@
+this.rightCity.Location = new System.Drawing.Point(739, 247);
+this.rightCity.Size = new System.Drawing.Size(30, 12);
+
+this.rightCityLabel.Location = new System.Drawing.Point(710, 247);
+this.rightCityLabel.Size = new System.Drawing.Size(23, 12);
+
+this.rightSeeMoreButton.Location = new System.Drawing.Point(661, 293);
+this.rightSeeMoreButton.Size = new System.Drawing.Size(71, 24);
+
+
+this.rightStars.Location = new System.Drawing.Point(661, 263);
+this.rightStars.Size = new System.Drawing.Size(80, 27);
+
+this.rightStarsLabel.Location = new System.Drawing.Point(606, 267);
+this.rightStarsLabel.Size = new System.Drawing.Size(28, 12);
+
+this.rightCountry.Location = new System.Drawing.Point(661, 247);
+this.rightCountry.Size = new System.Drawing.Size(43, 12);
+
+this.rightCountryLabel.Location = new System.Drawing.Point(606, 247);
+this.rightCountryLabel.Size = new System.Drawing.Size(42, 12);
+
+this.rightLargePic.Location = new System.Drawing.Point(597, 140);
+this.rightLargePic.Size = new System.Drawing.Size(136, 95);
+
+this.rightFram.Location = new System.Drawing.Point(587, 133);
+this.rightFram.Size = new System.Drawing.Size(200, 192);
+
+this.rightSmallPic3.Location = new System.Drawing.Point(739, 207);
+this.rightSmallPic3.Size = new System.Drawing.Size(39, 28);
+
+this.rightSmallPic2.Location = new System.Drawing.Point(739, 171);
+this.rightSmallPic2.Size = new System.Drawing.Size(39, 30);
+
+this.rightSmallPic1.Location = new System.Drawing.Point(739, 140);
+this.rightSmallPic1.Size = new System.Drawing.Size(39, 25);
+-------------------------------------------------------------------
+
+this.leftFram.Location = new System.Drawing.Point(26, 136);
+this.leftFram.Size = new System.Drawing.Size(200, 191);
+
+this.leftSmallPic1.Location = new System.Drawing.Point(178, 143);
+this.leftSmallPic1.Size = new System.Drawing.Size(39, 25);
+
+this.leftSmallPic2.Location = new System.Drawing.Point(178, 174);
+this.leftSmallPic2.Size = new System.Drawing.Size(39, 30);
+
+
+this.leftSmallPic3.Location = new System.Drawing.Point(178, 210);
+this.leftSmallPic3.Size = new System.Drawing.Size(39, 28);
+
+
+this.leftLargePic.Location = new System.Drawing.Point(36, 143);
+this.leftLargePic.Size = new System.Drawing.Size(136, 95);

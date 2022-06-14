@@ -1,0 +1,195 @@
+            //main 
+            this.mainFram = new WinFormsApp1.RoundLabel();
+            this.mainLargePic = new WinFormsApp1.RoundPicture();
+            this.mainSmallPic1 = new WinFormsApp1.RoundPicture();
+            this.mainSmallPic2 = new WinFormsApp1.RoundPicture();
+            this.mainSmallPic3 = new WinFormsApp1.RoundPicture();
+            this.mainStars = new System.Windows.Forms.Label();
+            this.mainCountry = new System.Windows.Forms.Label();
+            this.mainStarsLabel = new System.Windows.Forms.Label();
+            this.mainCountryLabel = new System.Windows.Forms.Label();
+            this.mainCityLabel = new System.Windows.Forms.Label();
+            this.mainCity = new System.Windows.Forms.Label();
+            this.mainSeeMoreButton = new CustomControls.RJControls.LinkButton();
+            //
+            ((System.ComponentModel.ISupportInitialize)(this.mainLargePic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainSmallPic1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainSmallPic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainSmallPic3)).BeginInit();
+            // 
+            // mainFram
+            // 
+            this.mainFram.BackColor = System.Drawing.Color.White;
+            this.mainFram.BorderRadius = 20;
+            this.mainFram.Location = new System.Drawing.Point(247, 108);
+            this.mainFram.Name = "mainFram";
+            this.mainFram.Size = new System.Drawing.Size(319, 274);
+            this.mainFram.TabIndex = 44;
+            // 
+            // mainLargePic
+            // 
+            this.mainLargePic.BorderRadius = 20;
+            this.mainLargePic.Image = ((System.Drawing.Image)(resources.GetObject("mainLargePic.Image")));
+            this.mainLargePic.Location = new System.Drawing.Point(258, 120);
+            this.mainLargePic.Name = "mainLargePic";
+            this.mainLargePic.Size = new System.Drawing.Size(237, 142);
+            this.mainLargePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mainLargePic.TabIndex = 58;
+            this.mainLargePic.TabStop = false;
+            // 
+            // mainSmallPic1
+            // 
+            this.mainSmallPic1.BorderRadius = 10;
+            this.mainSmallPic1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mainSmallPic1.Image = ((System.Drawing.Image)(resources.GetObject("mainSmallPic1.Image")));
+            this.mainSmallPic1.Location = new System.Drawing.Point(500, 120);
+            this.mainSmallPic1.Name = "mainSmallPic1";
+            this.mainSmallPic1.Size = new System.Drawing.Size(56, 40);
+            this.mainSmallPic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mainSmallPic1.TabIndex = 59;
+            this.mainSmallPic1.TabStop = false;
+            this.mainSmallPic1.Click += new System.EventHandler(this.form1_Click);
+            // 
+            // mainSmallPic2
+            // 
+            this.mainSmallPic2.BorderRadius = 10;
+            this.mainSmallPic2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mainSmallPic2.Image = ((System.Drawing.Image)(resources.GetObject("mainSmallPic2.Image")));
+            this.mainSmallPic2.Location = new System.Drawing.Point(501, 171);
+            this.mainSmallPic2.Name = "mainSmallPic2";
+            this.mainSmallPic2.Size = new System.Drawing.Size(57, 40);
+            this.mainSmallPic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mainSmallPic2.TabIndex = 60;
+            this.mainSmallPic2.TabStop = false;
+            this.mainSmallPic2.Click += new System.EventHandler(this.roundPicture2_Click);
+            // 
+            // mainSmallPic3
+            // 
+            this.mainSmallPic3.BorderRadius = 10;
+            this.mainSmallPic3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mainSmallPic3.Image = ((System.Drawing.Image)(resources.GetObject("mainSmallPic3.Image")));
+            this.mainSmallPic3.Location = new System.Drawing.Point(500, 222);
+            this.mainSmallPic3.Name = "mainSmallPic3";
+            this.mainSmallPic3.Size = new System.Drawing.Size(56, 40);
+            this.mainSmallPic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mainSmallPic3.TabIndex = 61;
+            this.mainSmallPic3.TabStop = false;
+            this.mainSmallPic3.Click += new System.EventHandler(this.form_3_Click);
+            // 
+            // mainStars
+            // 
+            this.mainStars.BackColor = System.Drawing.Color.White;
+            this.mainStars.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.mainStars.Location = new System.Drawing.Point(371, 300);
+            this.mainStars.Margin = new System.Windows.Forms.Padding(0);
+            this.mainStars.Name = "mainStars";
+            this.mainStars.Size = new System.Drawing.Size(80, 27);
+            this.mainStars.TabIndex = 52;
+            this.mainStars.Text = "★★★★";
+            // 
+            // mainCountry
+            // 
+            this.mainCountry.AutoSize = true;
+            this.mainCountry.BackColor = System.Drawing.Color.White;
+            this.mainCountry.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.mainCountry.Location = new System.Drawing.Point(371, 278);
+            this.mainCountry.Name = "mainCountry";
+            this.mainCountry.Size = new System.Drawing.Size(62, 19);
+            this.mainCountry.TabIndex = 49;
+            this.mainCountry.Text = "Morroco";
+            // 
+            // mainStarsLabel
+            // 
+            this.mainStarsLabel.AutoSize = true;
+            this.mainStarsLabel.BackColor = System.Drawing.Color.White;
+            this.mainStarsLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.mainStarsLabel.Location = new System.Drawing.Point(289, 305);
+            this.mainStarsLabel.Name = "mainStarsLabel";
+            this.mainStarsLabel.Size = new System.Drawing.Size(42, 19);
+            this.mainStarsLabel.TabIndex = 48;
+            this.mainStarsLabel.Text = "Stars";
+            // 
+            // mainCountryLabel
+            // 
+            this.mainCountryLabel.AutoSize = true;
+            this.mainCountryLabel.BackColor = System.Drawing.Color.White;
+            this.mainCountryLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.mainCountryLabel.Location = new System.Drawing.Point(289, 278);
+            this.mainCountryLabel.Name = "mainCountryLabel";
+            this.mainCountryLabel.Size = new System.Drawing.Size(63, 19);
+            this.mainCountryLabel.TabIndex = 45;
+            this.mainCountryLabel.Text = "Country";
+            // 
+            // mainCityLabel
+            // 
+            this.mainCityLabel.AutoSize = true;
+            this.mainCityLabel.BackColor = System.Drawing.Color.White;
+            this.mainCityLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.mainCityLabel.Location = new System.Drawing.Point(460, 278);
+            this.mainCityLabel.Name = "mainCityLabel";
+            this.mainCityLabel.Size = new System.Drawing.Size(35, 19);
+            this.mainCityLabel.TabIndex = 46;
+            this.mainCityLabel.Text = "City";
+            // 
+            // mainCity
+            // 
+            this.mainCity.AutoSize = true;
+            this.mainCity.BackColor = System.Drawing.Color.White;
+            this.mainCity.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.mainCity.Location = new System.Drawing.Point(512, 278);
+            this.mainCity.Name = "mainCity";
+            this.mainCity.Size = new System.Drawing.Size(44, 19);
+            this.mainCity.TabIndex = 50;
+            this.mainCity.Text = "Rabat";
+            // 
+            // mainSeeMoreButton
+            // 
+            this.mainSeeMoreButton.BackColor = System.Drawing.Color.Gray;
+            this.mainSeeMoreButton.BackgroundColor = System.Drawing.Color.Gray;
+            this.mainSeeMoreButton.BorderColor = System.Drawing.Color.White;
+            this.mainSeeMoreButton.BorderRadius = 13;
+            this.mainSeeMoreButton.BorderSize = 0;
+            this.mainSeeMoreButton.ButtomBorderSize = 0;
+            this.mainSeeMoreButton.FlatAppearance.BorderSize = 0;
+            this.mainSeeMoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainSeeMoreButton.ForeColor = System.Drawing.Color.White;
+            this.mainSeeMoreButton.Location = new System.Drawing.Point(371, 334);
+            this.mainSeeMoreButton.Name = "mainSeeMoreButton";
+            this.mainSeeMoreButton.ShadowColor = System.Drawing.Color.Gray;
+            this.mainSeeMoreButton.ShadowSize = 2;
+            this.mainSeeMoreButton.Size = new System.Drawing.Size(100, 30);
+            this.mainSeeMoreButton.TabIndex = 62;
+            this.mainSeeMoreButton.Text = "See More";
+            this.mainSeeMoreButton.TextColor = System.Drawing.Color.White;
+            this.mainSeeMoreButton.UseVisualStyleBackColor = false;
+            //
+            this.Controls.Add(this.mainSeeMoreButton);
+            this.Controls.Add(this.mainSmallPic3);
+            this.Controls.Add(this.mainSmallPic2);
+            this.Controls.Add(this.mainSmallPic1);
+            this.Controls.Add(this.mainLargePic);
+            this.Controls.Add(this.mainStars);
+            this.Controls.Add(this.mainCity);
+            this.Controls.Add(this.mainCountry);
+            this.Controls.Add(this.mainStarsLabel);
+            this.Controls.Add(this.mainCityLabel);
+            this.Controls.Add(this.mainCountryLabel);
+            this.Controls.Add(this.mainFram);
+            //
+            ((System.ComponentModel.ISupportInitialize)(this.mainLargePic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainSmallPic1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainSmallPic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainSmallPic3)).EndInit();
+	    //
+        private Label mainStars;
+        private Label mainCountry;
+        private Label mainStarsLabel;
+        private Label mainCountryLabel;
+        private RoundLabel mainFram;
+        private RoundPicture mainLargePic;
+        private RoundPicture mainSmallPic1;
+        private RoundPicture mainSmallPic2;
+        private RoundPicture mainSmallPic3;
+        private Label mainCityLabel;
+        private Label mainCity;
+        private CustomControls.RJControls.LinkButton mainSeeMoreButton;

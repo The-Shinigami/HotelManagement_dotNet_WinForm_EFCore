@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Bin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\AddReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\DetailsHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Hotels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Elements\LinkButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Elements\RoundLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Elements\RoundPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Elements\RoundPicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Elements\TextArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
