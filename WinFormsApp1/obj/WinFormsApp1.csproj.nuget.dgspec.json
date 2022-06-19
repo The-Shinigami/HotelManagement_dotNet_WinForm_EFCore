@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[6.0.4, )"
             },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[1.50.5147, )"
+            },
             "dot-net-transitions": {
               "target": "Package",
               "version": "[1.2.1, )"

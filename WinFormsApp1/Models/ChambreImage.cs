@@ -12,5 +12,15 @@ namespace WinFormsApp1.Models
         public string Src { get; set; }
         public int ChambreId { get; set; }
         public Chambre Chambre;
+
+       public  ChambreImage()
+        {
+
+        }
+        public ChambreImage(string src)
+        {
+            this.Src = src;
+        }
+
     }
 }

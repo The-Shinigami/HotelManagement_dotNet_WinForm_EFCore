@@ -651,6 +651,9 @@
             this.mainFram.Controls.Add(this.mainSeeMoreButton);
             this.mainFram.Location = new System.Drawing.Point(249, 101);
             this.mainFram.Name = "mainFram";
+            this.mainFram.ShadowColor = System.Drawing.Color.White;
+            this.mainFram.ShadowSize = 0;
+            this.mainFram.ShadowVariante = 0;
             this.mainFram.Size = new System.Drawing.Size(319, 274);
             this.mainFram.TabIndex = 116;
             this.mainFram.Paint += new System.Windows.Forms.PaintEventHandler(this.mainFram_Paint);
@@ -672,6 +675,9 @@
             this.rightFram.Controls.Add(this.rightCountryLabel);
             this.rightFram.Location = new System.Drawing.Point(589, 133);
             this.rightFram.Name = "rightFram";
+            this.rightFram.ShadowColor = System.Drawing.Color.White;
+            this.rightFram.ShadowSize = 0;
+            this.rightFram.ShadowVariante = 0;
             this.rightFram.Size = new System.Drawing.Size(200, 192);
             this.rightFram.TabIndex = 117;
             this.rightFram.Paint += new System.Windows.Forms.PaintEventHandler(this.rightFram_Paint);
@@ -693,6 +699,9 @@
             this.leftFram.Controls.Add(this.leftCountry);
             this.leftFram.Location = new System.Drawing.Point(26, 133);
             this.leftFram.Name = "leftFram";
+            this.leftFram.ShadowColor = System.Drawing.Color.White;
+            this.leftFram.ShadowSize = 0;
+            this.leftFram.ShadowVariante = 0;
             this.leftFram.Size = new System.Drawing.Size(200, 192);
             this.leftFram.TabIndex = 118;
             // 
@@ -708,8 +717,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(815, 462);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.CardNum);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -723,8 +732,8 @@
             this.Controls.Add(this.mainFram);
             this.Controls.Add(this.rightFram);
             this.Controls.Add(this.leftFram);
-            this.MaximumSize = new System.Drawing.Size(831, 501);
-            this.MinimumSize = new System.Drawing.Size(831, 501);
+            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "Hotels";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";

@@ -26,6 +26,10 @@ namespace WinFormsApp1
         public DbSet<Facture> Factures { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
 
+        public DbSet<Prestation> Prestations { get; set; }
+
+        public DbSet<Utilisateur> Utilisateurs { get; set; }
+
 
 
     }

@@ -21,6 +21,17 @@ namespace WinFormsApp1.Models
         public List <Reservation> Reservations { get; set; }
         public ChambreImage ChambreImage { get; set; }
 
+        public Chambre() { }
+        public Chambre(string NumTel,Hotel hotel,Categorie categorie,ChambreImage ci)
+        {
+            this.NumTel = NumTel;
+            this.HotelId = hotel.Id;
+            this.CategorieId = categorie.Id;
+            this.ChambreImage = ci;
+
+
+        }
+
        
     }
 }

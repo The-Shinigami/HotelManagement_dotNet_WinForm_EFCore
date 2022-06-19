@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Service));
             this.linkButton4 = new CustomControls.RJControls.LinkButton();
             this.linkButton3 = new CustomControls.RJControls.LinkButton();
-            this.linkButton2 = new CustomControls.RJControls.LinkButton();
             this.linkButton1 = new CustomControls.RJControls.LinkButton();
             this.sliderLabel = new WinFormsApp1.RoundLabel();
             this.sliderPic = new System.Windows.Forms.PictureBox();
@@ -45,8 +44,8 @@
             // 
             // linkButton4
             // 
-            this.linkButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.linkButton4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.linkButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
+            this.linkButton4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
             this.linkButton4.BorderColor = System.Drawing.Color.Black;
             this.linkButton4.BorderRadius = 0;
             this.linkButton4.BorderSize = 0;
@@ -67,8 +66,8 @@
             // 
             // linkButton3
             // 
-            this.linkButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.linkButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.linkButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
+            this.linkButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
             this.linkButton3.BorderColor = System.Drawing.Color.Black;
             this.linkButton3.BorderRadius = 0;
             this.linkButton3.BorderSize = 0;
@@ -87,28 +86,6 @@
             this.linkButton3.TextColor = System.Drawing.Color.Black;
             this.linkButton3.UseVisualStyleBackColor = false;
             this.linkButton3.Click += new System.EventHandler(this.linkButton3_Click_1);
-            // 
-            // linkButton2
-            // 
-            this.linkButton2.BackColor = System.Drawing.Color.White;
-            this.linkButton2.BackgroundColor = System.Drawing.Color.White;
-            this.linkButton2.BorderColor = System.Drawing.Color.White;
-            this.linkButton2.BorderRadius = 20;
-            this.linkButton2.BorderSize = 0;
-            this.linkButton2.ButtomBorderSize = 2;
-            this.linkButton2.FlatAppearance.BorderSize = 0;
-            this.linkButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.linkButton2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkButton2.ForeColor = System.Drawing.Color.Black;
-            this.linkButton2.Location = new System.Drawing.Point(562, 25);
-            this.linkButton2.Name = "linkButton2";
-            this.linkButton2.ShadowColor = System.Drawing.Color.DarkGray;
-            this.linkButton2.ShadowSize = 3;
-            this.linkButton2.Size = new System.Drawing.Size(100, 41);
-            this.linkButton2.TabIndex = 5;
-            this.linkButton2.Text = "Register";
-            this.linkButton2.TextColor = System.Drawing.Color.Black;
-            this.linkButton2.UseVisualStyleBackColor = false;
             // 
             // linkButton1
             // 
@@ -131,6 +108,7 @@
             this.linkButton1.Text = "Login";
             this.linkButton1.TextColor = System.Drawing.Color.Black;
             this.linkButton1.UseVisualStyleBackColor = false;
+            this.linkButton1.Click += new System.EventHandler(this.linkButton1_Click_1);
             // 
             // sliderLabel
             // 
@@ -188,11 +166,11 @@
             this.label3.Size = new System.Drawing.Size(100, 5);
             this.label3.TabIndex = 13;
             // 
-            // Form2
+            // Service
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -201,12 +179,11 @@
             this.Controls.Add(this.sliderPic);
             this.Controls.Add(this.linkButton4);
             this.Controls.Add(this.linkButton3);
-            this.Controls.Add(this.linkButton2);
             this.Controls.Add(this.linkButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form2";
+            this.Name = "Service";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.sliderPic)).EndInit();
@@ -218,7 +195,6 @@
 
         private CustomControls.RJControls.LinkButton linkButton4;
         private CustomControls.RJControls.LinkButton linkButton3;
-        private CustomControls.RJControls.LinkButton linkButton2;
         private CustomControls.RJControls.LinkButton linkButton1;
         private RoundLabel sliderLabel;
         private PictureBox sliderPic;

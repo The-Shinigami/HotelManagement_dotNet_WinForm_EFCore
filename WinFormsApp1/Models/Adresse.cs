@@ -10,7 +10,7 @@ namespace WinFormsApp1.Models
     {
         public int Id { get; set; }
         public string Ville { get; set; }
-        public string Paye { get; set; }
+        public string Pays { get; set; }
         public string Details { get; set; }
 
         public Hotel Hotel { get; set; }

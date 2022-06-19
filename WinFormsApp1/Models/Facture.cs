@@ -11,8 +11,16 @@ namespace WinFormsApp1.Models
         public int  Id { get; set; }
         public bool paye { get; set; }
 
-        public ICollection<Reservation> Reservations { get; set; }
-        public ICollection<Prestation> Prestations { get; set; }
+        public List<Reservation> Reservations { get; set; }
+        public List<Prestation> Prestations { get; set; }
+
+       public Facture(bool paye)
+        {
+            paye = paye;
+        }
+        public Facture()
+        {
+        }
 
 
     }

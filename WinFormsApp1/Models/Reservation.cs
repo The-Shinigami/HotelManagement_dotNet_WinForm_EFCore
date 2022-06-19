@@ -16,6 +16,14 @@ namespace WinFormsApp1.Models
             this.ChambreId = chambreId;
             this.Facture = facture;
         }
+        public Reservation(DateTime dateDebut, DateTime dateFin, int utilisateurId, int chambreId, int factureId)
+        {
+            this.DateDebut = dateDebut;
+            this.DateFin = dateFin;
+            this.UtilisateurId = utilisateurId;
+            this.ChambreId = chambreId;
+            this.FactureId = factureId;
+        }
         public Reservation()
         {
 

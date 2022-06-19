@@ -17,6 +17,16 @@ namespace WinFormsApp1.Models
 
         public int FactureId { get; set; }
         public Facture Facture { get; set; }
+        public Prestation() { }
+        public Prestation(DateTime date,string type,float prix,Facture facture)
+        {
+            Date = date;
+            Type = type;
+            Prix = prix;
+            FactureId = facture.Id;
+
+
+        }
 
 
     }

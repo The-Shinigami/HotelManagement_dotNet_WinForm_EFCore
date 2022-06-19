@@ -30,15 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.linkButton1 = new CustomControls.RJControls.LinkButton();
-            this.linkButton2 = new CustomControls.RJControls.LinkButton();
             this.linkButton3 = new CustomControls.RJControls.LinkButton();
             this.linkButton4 = new CustomControls.RJControls.LinkButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkButton5 = new CustomControls.RJControls.LinkButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.roundPicture1 = new WinFormsApp1.RoundPicture();
+            this.roundPanel1 = new WinFormsApp1.RoundPanel();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundPicture1)).BeginInit();
+            this.roundPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // linkButton1
@@ -62,34 +65,12 @@
             this.linkButton1.Text = "Login";
             this.linkButton1.TextColor = System.Drawing.Color.Black;
             this.linkButton1.UseVisualStyleBackColor = false;
-            // 
-            // linkButton2
-            // 
-            this.linkButton2.BackColor = System.Drawing.Color.White;
-            this.linkButton2.BackgroundColor = System.Drawing.Color.White;
-            this.linkButton2.BorderColor = System.Drawing.Color.White;
-            this.linkButton2.BorderRadius = 20;
-            this.linkButton2.BorderSize = 0;
-            this.linkButton2.ButtomBorderSize = 2;
-            this.linkButton2.FlatAppearance.BorderSize = 0;
-            this.linkButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.linkButton2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkButton2.ForeColor = System.Drawing.Color.Black;
-            this.linkButton2.Location = new System.Drawing.Point(562, 24);
-            this.linkButton2.Name = "linkButton2";
-            this.linkButton2.ShadowColor = System.Drawing.Color.DarkGray;
-            this.linkButton2.ShadowSize = 3;
-            this.linkButton2.Size = new System.Drawing.Size(100, 41);
-            this.linkButton2.TabIndex = 1;
-            this.linkButton2.Text = "Register";
-            this.linkButton2.TextColor = System.Drawing.Color.Black;
-            this.linkButton2.UseVisualStyleBackColor = false;
-            this.linkButton2.Click += new System.EventHandler(this.linkButton2_Click);
+            this.linkButton1.Click += new System.EventHandler(this.linkButton1_Click);
             // 
             // linkButton3
             // 
-            this.linkButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.linkButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.linkButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
+            this.linkButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
             this.linkButton3.BorderColor = System.Drawing.Color.Black;
             this.linkButton3.BorderRadius = 0;
             this.linkButton3.BorderSize = 0;
@@ -111,8 +92,8 @@
             // 
             // linkButton4
             // 
-            this.linkButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.linkButton4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.linkButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
+            this.linkButton4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
             this.linkButton4.BorderColor = System.Drawing.Color.Black;
             this.linkButton4.BorderRadius = 0;
             this.linkButton4.BorderSize = 0;
@@ -132,17 +113,6 @@
             this.linkButton4.UseVisualStyleBackColor = false;
             this.linkButton4.Click += new System.EventHandler(this.linkButton4_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-4, 99);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(549, 391);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // linkButton5
             // 
             this.linkButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(169)))), ((int)(((byte)(122)))));
@@ -156,9 +126,9 @@
             this.linkButton5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkButton5.ForeColor = System.Drawing.Color.White;
             this.linkButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.linkButton5.Location = new System.Drawing.Point(521, 290);
+            this.linkButton5.Location = new System.Drawing.Point(60, 165);
             this.linkButton5.Name = "linkButton5";
-            this.linkButton5.ShadowColor = System.Drawing.Color.White;
+            this.linkButton5.ShadowColor = System.Drawing.Color.Gainsboro;
             this.linkButton5.ShadowSize = 3;
             this.linkButton5.Size = new System.Drawing.Size(223, 40);
             this.linkButton5.TabIndex = 6;
@@ -170,7 +140,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(521, 336);
+            this.pictureBox2.Location = new System.Drawing.Point(60, 211);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(223, 52);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -179,27 +149,52 @@
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(485, 149);
+            this.label1.Location = new System.Drawing.Point(65, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 125);
+            this.label1.Size = new System.Drawing.Size(218, 125);
             this.label1.TabIndex = 8;
             this.label1.Text = "WELCOME TO \r\nOUR\r\n HOTEL SERIES \r\n\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // roundPicture1
+            // 
+            this.roundPicture1.BorderRadius = 20;
+            this.roundPicture1.Image = ((System.Drawing.Image)(resources.GetObject("roundPicture1.Image")));
+            this.roundPicture1.Location = new System.Drawing.Point(12, 111);
+            this.roundPicture1.Name = "roundPicture1";
+            this.roundPicture1.Size = new System.Drawing.Size(420, 297);
+            this.roundPicture1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.roundPicture1.TabIndex = 9;
+            this.roundPicture1.TabStop = false;
+            // 
+            // roundPanel1
+            // 
+            this.roundPanel1.BackColor = System.Drawing.Color.White;
+            this.roundPanel1.BorderRadius = 20;
+            this.roundPanel1.Controls.Add(this.label1);
+            this.roundPanel1.Controls.Add(this.linkButton5);
+            this.roundPanel1.Controls.Add(this.pictureBox2);
+            this.roundPanel1.Location = new System.Drawing.Point(450, 111);
+            this.roundPanel1.Name = "roundPanel1";
+            this.roundPanel1.ShadowColor = System.Drawing.Color.White;
+            this.roundPanel1.ShadowSize = 0;
+            this.roundPanel1.ShadowVariante = 0;
+            this.roundPanel1.Size = new System.Drawing.Size(338, 297);
+            this.roundPanel1.TabIndex = 10;
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.linkButton5);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.roundPanel1);
+            this.Controls.Add(this.roundPicture1);
             this.Controls.Add(this.linkButton4);
             this.Controls.Add(this.linkButton3);
-            this.Controls.Add(this.linkButton2);
             this.Controls.Add(this.linkButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -208,8 +203,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundPicture1)).EndInit();
+            this.roundPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -217,12 +213,14 @@
         #endregion
 
         private CustomControls.RJControls.LinkButton linkButton1;
-        private CustomControls.RJControls.LinkButton linkButton2;
         private CustomControls.RJControls.LinkButton linkButton3;
         private CustomControls.RJControls.LinkButton linkButton4;
-        private PictureBox pictureBox1;
         private CustomControls.RJControls.LinkButton linkButton5;
         private PictureBox pictureBox2;
         private Label label1;
+        private RoundPicture roundPicture1;
+        private RoundPanel roundPanel1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private SaveFileDialog saveFileDialog;
     }
 }

@@ -35,19 +35,22 @@ namespace WinFormsApp1.View
 
         private void submitButton_Click(object sender, EventArgs e)
         {
-            Utilisateur utilisateur = new Utilisateur(this.nom.Text,this.prenom.Text,this.adresse.Text,this.pays.Text,this.ville.Text,this.codePostal.Text,this.tel.Text,this.email.Text,1);
+            Utilisateur utilisateur = new Utilisateur(this.nom.Text,this.prenom.Text,this.adresse.Text,this.pays.Text,this.ville.Text,this.codePostal.Text,this.email.Text,this.tel.Text,1);
            
             Facture facture = new Facture();
-
+            ApplicationDbContext _context = new ApplicationDbContext();
+           
             bool success = false;
             foreach(Chambre chambre in c.Chambres)
             {
-
-                MessageBox.Show(chambre.Id.ToString());
+                DateTime dateDebut = DateTime.SpecifyKind(this.dateDebut.Value, DateTimeKind.Utc);
+                DateTime dateFin = DateTime.SpecifyKind(this.dateFin.Value, DateTimeKind.Utc);
+              
                 if (!this.hotelController.isReserved(DateTime.SpecifyKind(this.dateDebut.Value, DateTimeKind.Utc), DateTime.SpecifyKind(this.dateFin.Value, DateTimeKind.Utc), chambre))
                 {
                     Reservation reservation = new Reservation(DateTime.SpecifyKind(this.dateDebut.Value, DateTimeKind.Utc), DateTime.SpecifyKind(this.dateFin.Value, DateTimeKind.Utc), utilisateur, chambre.Id, facture);
                     this.hotelController.addReservation(reservation);
+
                     success = true;
                     break;
 
@@ -63,8 +66,8 @@ namespace WinFormsApp1.View
                 this.pays.Text = "";
                 this.ville.Text = "";
                 this.codePostal.Text = "";
-                this.tel.Text = "";
                 this.email.Text = "";
+                this.tel.Text = "";
                 this.dateDebut.Value = DateTime.Now;
                 this.dateFin.Value = DateTime.Now;
             }

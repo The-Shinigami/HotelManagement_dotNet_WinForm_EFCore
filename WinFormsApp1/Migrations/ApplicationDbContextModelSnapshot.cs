@@ -53,7 +53,7 @@ namespace WinFormsApp1.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Paye")
+                    b.Property<string>("Pays")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -235,7 +235,7 @@ namespace WinFormsApp1.Migrations
 
                     b.HasIndex("FactureId");
 
-                    b.ToTable("Prestation");
+                    b.ToTable("Prestations");
                 });
 
             modelBuilder.Entity("WinFormsApp1.Models.Reservation", b =>
@@ -317,7 +317,7 @@ namespace WinFormsApp1.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Utilisateur");
+                    b.ToTable("Utilisateurs");
                 });
 
             modelBuilder.Entity("WinFormsApp1.Models.Chambre", b =>

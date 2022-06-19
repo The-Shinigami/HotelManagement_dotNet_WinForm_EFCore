@@ -44,8 +44,8 @@
             this.roundPanel2 = new WinFormsApp1.RoundPanel();
             this.dateFin = new System.Windows.Forms.DateTimePicker();
             this.dateDebut = new System.Windows.Forms.DateTimePicker();
-            this.email = new CustomControls.MBControls.TextArea();
             this.tel = new CustomControls.MBControls.TextArea();
+            this.email = new CustomControls.MBControls.TextArea();
             this.dateFinLabel = new WinFormsApp1.RoundLabel();
             this.dateDebutLabel = new WinFormsApp1.RoundLabel();
             this.emailLabel = new WinFormsApp1.RoundLabel();
@@ -69,7 +69,7 @@
             this.roundPanel1.Controls.Add(this.adresseLabel);
             this.roundPanel1.Controls.Add(this.prenomLabel);
             this.roundPanel1.Controls.Add(this.nomLabel);
-            this.roundPanel1.Location = new System.Drawing.Point(46, 104);
+            this.roundPanel1.Location = new System.Drawing.Point(46, 51);
             this.roundPanel1.Name = "roundPanel1";
             this.roundPanel1.ShadowColor = System.Drawing.Color.White;
             this.roundPanel1.ShadowSize = 0;
@@ -230,14 +230,14 @@
             this.roundPanel2.Controls.Add(this.codePostal);
             this.roundPanel2.Controls.Add(this.dateFin);
             this.roundPanel2.Controls.Add(this.dateDebut);
-            this.roundPanel2.Controls.Add(this.email);
             this.roundPanel2.Controls.Add(this.tel);
+            this.roundPanel2.Controls.Add(this.email);
             this.roundPanel2.Controls.Add(this.codePostalLabel);
             this.roundPanel2.Controls.Add(this.dateFinLabel);
             this.roundPanel2.Controls.Add(this.dateDebutLabel);
             this.roundPanel2.Controls.Add(this.emailLabel);
             this.roundPanel2.Controls.Add(this.telLabel);
-            this.roundPanel2.Location = new System.Drawing.Point(436, 104);
+            this.roundPanel2.Location = new System.Drawing.Point(433, 51);
             this.roundPanel2.Name = "roundPanel2";
             this.roundPanel2.ShadowColor = System.Drawing.Color.White;
             this.roundPanel2.ShadowSize = 0;
@@ -259,24 +259,11 @@
             this.dateDebut.Size = new System.Drawing.Size(200, 23);
             this.dateDebut.TabIndex = 21;
             // 
-            // email
-            // 
-            this.email.BackColor = System.Drawing.Color.White;
-            this.email.CausesValidation = false;
-            this.email.Location = new System.Drawing.Point(153, 128);
-            this.email.MaximumSize = new System.Drawing.Size(141, 25);
-            this.email.MinimumSize = new System.Drawing.Size(141, 25);
-            this.email.Name = "email";
-            this.email.PlaceholderText = "Entrer Votre Email";
-            this.email.Size = new System.Drawing.Size(141, 25);
-            this.email.TabIndex = 17;
-            this.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // tel
             // 
             this.tel.BackColor = System.Drawing.Color.White;
             this.tel.CausesValidation = false;
-            this.tel.Location = new System.Drawing.Point(153, 87);
+            this.tel.Location = new System.Drawing.Point(153, 89);
             this.tel.MaximumSize = new System.Drawing.Size(141, 25);
             this.tel.MinimumSize = new System.Drawing.Size(141, 25);
             this.tel.Name = "tel";
@@ -284,6 +271,19 @@
             this.tel.Size = new System.Drawing.Size(141, 25);
             this.tel.TabIndex = 17;
             this.tel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // email
+            // 
+            this.email.BackColor = System.Drawing.Color.White;
+            this.email.CausesValidation = false;
+            this.email.Location = new System.Drawing.Point(153, 132);
+            this.email.MaximumSize = new System.Drawing.Size(141, 25);
+            this.email.MinimumSize = new System.Drawing.Size(141, 25);
+            this.email.Name = "email";
+            this.email.PlaceholderText = "Entrer Votre Email";
+            this.email.Size = new System.Drawing.Size(141, 25);
+            this.email.TabIndex = 17;
+            this.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // dateFinLabel
             // 
@@ -331,23 +331,24 @@
             // 
             // submitButton
             // 
-            this.submitButton.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.submitButton.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.submitButton.BorderColor = System.Drawing.Color.White;
+            this.submitButton.BackColor = System.Drawing.Color.White;
+            this.submitButton.BackgroundColor = System.Drawing.Color.White;
+            this.submitButton.BorderColor = System.Drawing.Color.Gray;
             this.submitButton.BorderRadius = 20;
             this.submitButton.BorderSize = 0;
-            this.submitButton.ButtomBorderSize = 0;
+            this.submitButton.ButtomBorderSize = 2;
             this.submitButton.FlatAppearance.BorderSize = 0;
             this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.submitButton.ForeColor = System.Drawing.Color.White;
-            this.submitButton.Location = new System.Drawing.Point(341, 398);
+            this.submitButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.submitButton.ForeColor = System.Drawing.Color.Black;
+            this.submitButton.Location = new System.Drawing.Point(259, 357);
             this.submitButton.Name = "submitButton";
             this.submitButton.ShadowColor = System.Drawing.Color.Gray;
             this.submitButton.ShadowSize = 2;
-            this.submitButton.Size = new System.Drawing.Size(816, 489);
+            this.submitButton.Size = new System.Drawing.Size(287, 39);
             this.submitButton.TabIndex = 2;
             this.submitButton.Text = "Valider";
-            this.submitButton.TextColor = System.Drawing.Color.White;
+            this.submitButton.TextColor = System.Drawing.Color.Black;
             this.submitButton.UseVisualStyleBackColor = false;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
@@ -355,7 +356,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(229)))), ((int)(((byte)(199)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.roundPanel2);
@@ -389,8 +390,8 @@
         private CustomControls.MBControls.TextArea prenom;
         private DateTimePicker dateFin;
         private DateTimePicker dateDebut;
-        private CustomControls.MBControls.TextArea email;
         private CustomControls.MBControls.TextArea tel;
+        private CustomControls.MBControls.TextArea email;
         private RoundLabel dateFinLabel;
         private RoundLabel dateDebutLabel;
         private RoundLabel emailLabel;

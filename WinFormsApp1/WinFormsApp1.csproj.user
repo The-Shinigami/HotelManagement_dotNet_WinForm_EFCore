@@ -7,10 +7,19 @@
     <Compile Update="View\AddReservation.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\DetailsHotel.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\FactureTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\Service.cs">

@@ -51,7 +51,7 @@ namespace WinFormsApp1
             if (positions[1] == "main")
             {
                 this.mainCity.Text = this.hotels[iM].Adresse.Ville;
-                this.mainCountry.Text = this.hotels[iM].Adresse.Paye;
+                this.mainCountry.Text = this.hotels[iM].Adresse.Pays;
                 this.mainStars.Text = this.hotels[iM].Classement.Etoile.ToString();
                 this.mainLargePic.ImageLocation = this.hotels[iM].HotelImages[0].Src;
                 this.mainSmallPic1.ImageLocation = this.hotels[iM].HotelImages[0].Src;
@@ -61,7 +61,7 @@ namespace WinFormsApp1
             if (positions[1] == "left")
             {
                 this.leftCity.Text = this.hotels[iM].Adresse.Ville;
-                this.leftCountry.Text = this.hotels[iM].Adresse.Paye;
+                this.leftCountry.Text = this.hotels[iM].Adresse.Pays;
                 this.leftStars.Text = this.hotels[iM].Classement.Etoile.ToString();
                 this.leftLargePic.ImageLocation = this.hotels[iM].HotelImages[0].Src;
                 this.leftSmallPic1.ImageLocation = this.hotels[iM].HotelImages[0].Src;
@@ -71,7 +71,7 @@ namespace WinFormsApp1
             if (positions[1] == "right")
             {
                 this.rightCity.Text = this.hotels[iM].Adresse.Ville;
-                this.rightCountry.Text = this.hotels[iM].Adresse.Paye;
+                this.rightCountry.Text = this.hotels[iM].Adresse.Pays;
                 this.rightStars.Text = this.hotels[iM].Classement.Etoile.ToString();
                 this.rightLargePic.ImageLocation = this.hotels[iM].HotelImages[0].Src;
                 this.rightSmallPic1.ImageLocation = this.hotels[iM].HotelImages[0].Src;
@@ -84,7 +84,7 @@ namespace WinFormsApp1
             if (positions[0] == "main")
             {
                 this.mainCity.Text = this.hotels[iL].Adresse.Ville;
-                this.mainCountry.Text = this.hotels[iL].Adresse.Paye;
+                this.mainCountry.Text = this.hotels[iL].Adresse.Pays;
                 this.mainStars.Text = this.hotels[iL].Classement.Etoile.ToString();
                 this.mainLargePic.ImageLocation = this.hotels[iL].HotelImages[0].Src;
                 this.mainSmallPic1.ImageLocation = this.hotels[iL].HotelImages[0].Src;
@@ -94,7 +94,7 @@ namespace WinFormsApp1
             if (positions[0] == "left")
             {
                 this.leftCity.Text = this.hotels[iL].Adresse.Ville;
-                this.leftCountry.Text = this.hotels[iL].Adresse.Paye;
+                this.leftCountry.Text = this.hotels[iL].Adresse.Pays;
                 this.leftStars.Text = this.hotels[iL].Classement.Etoile.ToString();
                 this.leftLargePic.ImageLocation = this.hotels[iL].HotelImages[0].Src;
                 this.leftSmallPic1.ImageLocation = this.hotels[iL].HotelImages[0].Src;
@@ -104,7 +104,7 @@ namespace WinFormsApp1
             if (positions[0] == "right")
             {
                 this.rightCity.Text = this.hotels[iL].Adresse.Ville;
-                this.rightCountry.Text = this.hotels[iL].Adresse.Paye;
+                this.rightCountry.Text = this.hotels[iL].Adresse.Pays;
                 this.rightStars.Text = this.hotels[iL].Classement.Etoile.ToString();
                 this.rightLargePic.ImageLocation = this.hotels[iL].HotelImages[0].Src;
                 this.rightSmallPic1.ImageLocation = this.hotels[iL].HotelImages[0].Src;
@@ -117,7 +117,7 @@ namespace WinFormsApp1
             if (positions[2] == "main")
             {
                 this.mainCity.Text = this.hotels[iR].Adresse.Ville;
-                this.mainCountry.Text = this.hotels[iR].Adresse.Paye;
+                this.mainCountry.Text = this.hotels[iR].Adresse.Pays;
                 this.mainStars.Text = this.hotels[iR].Classement.Etoile.ToString();
                 this.mainLargePic.ImageLocation = this.hotels[iR].HotelImages[0].Src;
                 this.mainSmallPic1.ImageLocation = this.hotels[iR].HotelImages[0].Src;
@@ -127,7 +127,7 @@ namespace WinFormsApp1
             if (positions[2] == "left")
             {
                 this.leftCity.Text = this.hotels[iR].Adresse.Ville;
-                this.leftCountry.Text = this.hotels[iR].Adresse.Paye;
+                this.leftCountry.Text = this.hotels[iR].Adresse.Pays;
                 this.leftStars.Text = this.hotels[iR].Classement.Etoile.ToString();
                 this.leftLargePic.ImageLocation = this.hotels[iR].HotelImages[0].Src;
                 this.leftSmallPic1.ImageLocation = this.hotels[iR].HotelImages[0].Src;
@@ -137,7 +137,7 @@ namespace WinFormsApp1
             if (positions[2] == "right")
             {
                 this.rightCity.Text = this.hotels[iR].Adresse.Ville;
-                this.rightCountry.Text = this.hotels[iR].Adresse.Paye;
+                this.rightCountry.Text = this.hotels[iR].Adresse.Pays;
                 this.rightStars.Text = this.hotels[iR].Classement.Etoile.ToString();
                 this.rightLargePic.ImageLocation = this.hotels[iR].HotelImages[0].Src;
                 this.rightSmallPic1.ImageLocation = this.hotels[iR].HotelImages[0].Src;

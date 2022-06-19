@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp1.View;
 
 namespace WinFormsApp1
 {
@@ -107,6 +108,12 @@ namespace WinFormsApp1
     private void timer1_Tick(object sender, EventArgs e)
         {
             LoadNextImage();
+        }
+
+        private void linkButton1_Click_1(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
         }
     }
 }

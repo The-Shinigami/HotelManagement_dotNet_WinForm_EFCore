@@ -40,3 +40,10 @@ C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\o
 C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Service.resources
 C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.View.DetailsHotel.resources
 C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.View.AddReservation.resources
+C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.View.Dashboard.resources
+C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.View.Login.resources
+C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\bin\Debug\net6.0-windows\PdfSharp.Charting.dll
+C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\bin\Debug\net6.0-windows\PdfSharp.dll
+C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\bin\Debug\net6.0-windows\de\PdfSharp.Charting.resources.dll
+C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\bin\Debug\net6.0-windows\de\PdfSharp.resources.dll
+C:\Users\Utilisateur\Documents\projects\.net\desctop\GestionHotel\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.View.FactureTicket.resources
