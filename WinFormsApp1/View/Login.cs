@@ -23,8 +23,8 @@ namespace WinFormsApp1.View
         private void submitButton_Click(object sender, EventArgs e)
         {
             Utilisateur u = new Utilisateur();
-            u.Email = this.password.Text;
-            u.Tel = this.email.Text;
+            u.Email = this.email.Text;
+            u.Tel = this.password.Text;
 
             Utilisateur utilisateur = null;
            utilisateur = this.hotelController.login(u);
