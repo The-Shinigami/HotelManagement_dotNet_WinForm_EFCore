@@ -249,7 +249,7 @@ namespace WinFormsApp1.Controllers
             this._context.Add(f);
            this._context.SaveChanges();
 
-            return this._context.Factures.Last();
+            return this._context.Factures.OrderBy(f => f.Id).Last();
 
         }
         public void addPrestaion(Prestation p)

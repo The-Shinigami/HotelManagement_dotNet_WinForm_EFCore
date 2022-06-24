@@ -34,10 +34,12 @@ namespace WinFormsApp1.View
 
         private void FactureTicket_Load(object sender, EventArgs e)
         {
+
+            this.dateFacture.Text = DateTime.Now.ToString();
                 // 
                 // columns
                 // 
-                double totalPrix = 0;
+            double totalPrix = 0;
                 for (int i = 0; i < facture.Reservations.Count; i++)
                 {
                 Reservation r = facture.Reservations[i];
@@ -178,8 +180,12 @@ namespace WinFormsApp1.View
 
             if (saveFileDialog.FileName != "")
             {
+                DateTime now = DateTime.Now;
+                while (DateTime.Now.Subtract(now).Seconds < 5)
+                {
 
-                captureScreen(saveFileDialog.FileName);
+                    captureScreen(saveFileDialog.FileName);
+                }
 
             }
         }

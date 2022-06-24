@@ -102,9 +102,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(307, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 37);
+            this.label1.Size = new System.Drawing.Size(179, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "OUR HOTELS";
+            this.label1.Text = "NOS HOTELS";
             // 
             // textArea1
             // 
@@ -136,9 +136,9 @@
             this.leftCountryLabel.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.leftCountryLabel.Location = new System.Drawing.Point(19, 117);
             this.leftCountryLabel.Name = "leftCountryLabel";
-            this.leftCountryLabel.Size = new System.Drawing.Size(42, 12);
+            this.leftCountryLabel.Size = new System.Drawing.Size(25, 12);
             this.leftCountryLabel.TabIndex = 84;
-            this.leftCountryLabel.Text = "Country";
+            this.leftCountryLabel.Text = "Pays";
             // 
             // leftCountry
             // 
@@ -158,9 +158,9 @@
             this.leftStarsLabel.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.leftStarsLabel.Location = new System.Drawing.Point(19, 135);
             this.leftStarsLabel.Name = "leftStarsLabel";
-            this.leftStarsLabel.Size = new System.Drawing.Size(28, 12);
+            this.leftStarsLabel.Size = new System.Drawing.Size(31, 12);
             this.leftStarsLabel.TabIndex = 88;
-            this.leftStarsLabel.Text = "Stars";
+            this.leftStarsLabel.Text = "Étoile";
             // 
             // leftStars
             // 
@@ -203,9 +203,9 @@
             this.leftCityLabel.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.leftCityLabel.Location = new System.Drawing.Point(123, 118);
             this.leftCityLabel.Name = "leftCityLabel";
-            this.leftCityLabel.Size = new System.Drawing.Size(23, 12);
+            this.leftCityLabel.Size = new System.Drawing.Size(26, 12);
             this.leftCityLabel.TabIndex = 91;
-            this.leftCityLabel.Text = "City";
+            this.leftCityLabel.Text = "Ville";
             // 
             // leftCity
             // 
@@ -236,9 +236,9 @@
             this.rightCityLabel.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.rightCityLabel.Location = new System.Drawing.Point(122, 114);
             this.rightCityLabel.Name = "rightCityLabel";
-            this.rightCityLabel.Size = new System.Drawing.Size(23, 12);
+            this.rightCityLabel.Size = new System.Drawing.Size(26, 12);
             this.rightCityLabel.TabIndex = 105;
-            this.rightCityLabel.Text = "City";
+            this.rightCityLabel.Text = "Ville";
             // 
             // rightSeeMoreButton
             // 
@@ -281,9 +281,9 @@
             this.rightStarsLabel.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.rightStarsLabel.Location = new System.Drawing.Point(18, 134);
             this.rightStarsLabel.Name = "rightStarsLabel";
-            this.rightStarsLabel.Size = new System.Drawing.Size(28, 12);
+            this.rightStarsLabel.Size = new System.Drawing.Size(31, 12);
             this.rightStarsLabel.TabIndex = 102;
-            this.rightStarsLabel.Text = "Stars";
+            this.rightStarsLabel.Text = "Étoile";
             // 
             // label22
             // 
@@ -313,9 +313,9 @@
             this.rightCountryLabel.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.rightCountryLabel.Location = new System.Drawing.Point(18, 114);
             this.rightCountryLabel.Name = "rightCountryLabel";
-            this.rightCountryLabel.Size = new System.Drawing.Size(42, 12);
+            this.rightCountryLabel.Size = new System.Drawing.Size(25, 12);
             this.rightCountryLabel.TabIndex = 98;
-            this.rightCountryLabel.Text = "Country";
+            this.rightCountryLabel.Text = "Pays";
             // 
             // pictureBox2
             // 
@@ -474,9 +474,9 @@
             this.mainStarsLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mainStarsLabel.Location = new System.Drawing.Point(41, 195);
             this.mainStarsLabel.Name = "mainStarsLabel";
-            this.mainStarsLabel.Size = new System.Drawing.Size(42, 19);
+            this.mainStarsLabel.Size = new System.Drawing.Size(46, 19);
             this.mainStarsLabel.TabIndex = 48;
-            this.mainStarsLabel.Text = "Stars";
+            this.mainStarsLabel.Text = "Étoile";
             // 
             // mainCountryLabel
             // 
@@ -485,9 +485,9 @@
             this.mainCountryLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mainCountryLabel.Location = new System.Drawing.Point(41, 167);
             this.mainCountryLabel.Name = "mainCountryLabel";
-            this.mainCountryLabel.Size = new System.Drawing.Size(63, 19);
+            this.mainCountryLabel.Size = new System.Drawing.Size(40, 19);
             this.mainCountryLabel.TabIndex = 45;
-            this.mainCountryLabel.Text = "Country";
+            this.mainCountryLabel.Text = "Pays";
             // 
             // mainCityLabel
             // 
@@ -496,9 +496,9 @@
             this.mainCityLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mainCityLabel.Location = new System.Drawing.Point(212, 167);
             this.mainCityLabel.Name = "mainCityLabel";
-            this.mainCityLabel.Size = new System.Drawing.Size(35, 19);
+            this.mainCityLabel.Size = new System.Drawing.Size(38, 19);
             this.mainCityLabel.TabIndex = 46;
-            this.mainCityLabel.Text = "City";
+            this.mainCityLabel.Text = "Ville";
             // 
             // mainCity
             // 

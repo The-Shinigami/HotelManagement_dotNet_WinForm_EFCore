@@ -60,9 +60,9 @@
             this.linkButton1.Name = "linkButton1";
             this.linkButton1.ShadowColor = System.Drawing.Color.DarkGray;
             this.linkButton1.ShadowSize = 3;
-            this.linkButton1.Size = new System.Drawing.Size(85, 41);
+            this.linkButton1.Size = new System.Drawing.Size(98, 41);
             this.linkButton1.TabIndex = 0;
-            this.linkButton1.Text = "Login";
+            this.linkButton1.Text = "Connexion";
             this.linkButton1.TextColor = System.Drawing.Color.Black;
             this.linkButton1.UseVisualStyleBackColor = false;
             this.linkButton1.Click += new System.EventHandler(this.linkButton1_Click);
@@ -155,7 +155,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(218, 125);
             this.label1.TabIndex = 8;
-            this.label1.Text = "WELCOME TO \r\nOUR\r\n HOTEL SERIES \r\n\r\n";
+            this.label1.Text = "BIENVENUE À\r\nNOTRE SÉRIE\r\n HÔTELIERE\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
